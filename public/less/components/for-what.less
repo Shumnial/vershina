@@ -1,0 +1,100 @@
+.for-what{
+	padding-bottom: 150px;
+
+
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__item {
+		flex-basis: 47%;
+		width: 47%;
+		padding-left: 110px;
+		margin-bottom: 30px;
+		background-repeat: no-repeat;
+		background-position: 0 7px;
+
+		&[data-reason-bg="1"] {
+			background-image: url('../images/forwhat1.png');
+		}
+
+		&[data-reason-bg="2"] {
+			background-image: url('../images/forwhat2.png');
+		}
+
+		&[data-reason-bg="3"] {
+			background-image: url('../images/forwhat3.png');
+		}
+
+		&[data-reason-bg="4"] {
+			background-image: url('../images/forwhat4.png');
+		}
+
+		&[data-reason-bg="5"] {
+			background-image: url('../images/forwhat5.png');
+		}
+
+		&[data-reason-bg="6"] {
+			background-image: url('../images/forwhat6.png');
+		}
+
+		&[data-reason-bg="7"] {
+			background-image: url('../images/forwhat7.png');
+		}
+	}
+
+	&__title {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	&__img {
+		position: absolute;
+		right: 100px;
+		bottom: -100px;
+	}
+
+	@media (max-width: @screen-md) {
+		padding-bottom: 0;
+
+		&__content {
+			display: block;
+		}
+
+		&__item {
+			width: 100%;
+		}
+
+		&__btn {
+			margin-bottom: 50px;
+		}
+
+		&__img {
+			position: static;
+			text-align: center;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	@media (max-width: @screen-xs) {
+
+		&__item {
+			padding-left: 60px;
+			background-size: 50px;
+		}
+
+		&__title {
+			font-size: 18px;
+		}
+
+		&__text {
+			font-size: 16px;
+		}
+	}
+}

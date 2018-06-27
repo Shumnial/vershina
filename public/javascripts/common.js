@@ -1,0 +1,2 @@
+"use strict";function _defineProperty(e,r,i){return r in e?Object.defineProperty(e,r,{value:i,enumerable:!0,configurable:!0,writable:!0}):e[r]=i,e}$(function(){var e;AOS.init({duration:600,disable:"mobile"}),$(".slick").slick((e={centerMode:!0,centerPadding:"0px"},_defineProperty(e,"centerMode",!0),_defineProperty(e,"slidesToShow",1),_defineProperty(e,"responsive",[{breakpoint:480,settings:{arrows:!1,dots:!0}}]),e))});
+//# sourceMappingURL=../javascripts/common.js.map

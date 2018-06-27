@@ -1,0 +1,197 @@
+{% extends layout %} {% block content %}
+<section class="section section--bg-gray intro">
+  <div class="container">
+    <div class="slick slider">
+      <div class="slider__slide">
+        <div class="section__inner">
+          <div class="section__content">
+            <h1 class="title title--size-extra" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">Azure<br>для бизнеса</h1>
+            <p class="text" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100">Проведите апгрейд компании.
+              <br>Перенесите ИТ-инфраструктуру в&nbsp;облако!</p>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" class="mb20">
+              {{ Macros.Btn('mailto:uc@stc-v.ru') }}
+            </div>
+          </div>
+        </div>
+        <div class="section__stage stage stage--height">
+          <img class="stage__object" data-obj="1" src="{{ 'slide1.png' | img_asset }}" alt="" data-aos="fade-left" data-aos-offset="200">
+        </div>
+      </div>
+      <div class="slider__slide">
+        <div class="section__inner">
+          <div class="section__content">
+            <h1 class="title title--size-extra" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">Azure<br>для бэкапа</h1>
+            <p class="text" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100">Минимизируйте риски компании&nbsp;&mdash; защитите<br>ее&nbsp;от&nbsp;потери данных и&nbsp;простоя!</p>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" class="mb20">
+              {{ Macros.Btn('mailto:uc@stc-v.ru') }}
+            </div>
+          </div>
+        </div>
+        <div class="section__stage stage stage--height">
+          <img class="stage__object" data-obj="1" src="{{ 'slide2.png' | img_asset }}" alt="" data-aos="fade-left" data-aos-offset="200">
+        </div>
+      </div>
+      <div class="slider__slide">
+        <div class="section__inner">
+          <div class="section__content">
+            <h1 class="title title--size-extra" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">Azure<br>для разработки</h1>
+            <p class="text" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100">Создайте среду для разработки и&nbsp;тестирования.<br>Мощные инструменты&nbsp;&mdash; крутые проекты!</p>
+            <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" class="mb20">
+              {{ Macros.Btn('mailto:uc@stc-v.ru') }}
+            </div>
+          </div>
+        </div>
+        <div class="section__stage stage stage--height">
+          <img class="stage__object" data-obj="1" src="{{ 'slide3.png' | img_asset }}" alt="" data-aos="fade-left" data-aos-offset="200">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--rtl" id="about">
+  <div class="container">
+    <div class="section__inner" data-aos="fade-left" data-aos-offset="300">
+      <div class="section__content">
+        <p class="title">Что такое Azure?</p>
+        <div class="section__text-wrapper">
+          <p class="text">Microsoft Azure&nbsp;&mdash; это полный набор полезных и&nbsp;доступных IT-служб в&nbsp;облаке, мощности которого распределены по&nbsp;всей планете.</p>
+          <p class="text">Неважно, какая у&nbsp;вас компания&nbsp;&mdash; стартап, малый бизнес, крупное производство или государственное предприятие. С&nbsp;Azure вы&nbsp;сможете воплотить идеи и&nbsp;создать уникальные решения для своего бизнеса. Эффективные, безопасные, надежные.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section__stage stage" data-aos="fade-up" data-aos-offset="300" data-aos-delay="250">
+      <img class="stage__object" src="{{ 'about.jpg' | img_asset }}" data-obj="2" alt="">
+    </div>
+  </div>
+</section>
+<section class="for-what section section--twocolumn section--bg-darkblue" id="for-what">
+  <div class="container">
+    <p class="title" data-aos="fade-up">Зачем Azure бизнесу?</p>
+    <div class="section__inner section__inner--no-padding section__inner--height-auto" data-aos="fade-right" data-aos-offset="100">
+      <div class="for-what__content section__content">
+        <div class="for-what__item" data-reason-bg="1" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Создать основную
+            <br>инфраструктуру в облаке</p>
+          <p class="text for-what__text">чтобы подготовить безопасный и масштабируемый фундамент для компании и сэкономить на ИТ</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="2" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Создать резервную
+            <br>инфраструктуру в&nbsp;облаке</p>
+          <p class="text for-what__text">чтобы все сервисы работали даже в&nbsp;форс-мажорных ситуациях и&nbsp;ваши клиенты были довольны</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="3" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Перенести 1С&nbsp;в&nbsp;облако</p>
+          <p class="text for-what__text">чтобы работать в&nbsp;1С&nbsp;с&nbsp;любого устройства и любой точки планеты, а&nbsp;еще защитить данные от&nbsp;взлома</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="4" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Настроить резервное копирование данных</p>
+          <p class="text for-what__text">чтобы защитить данные компании от&nbsp;системных сбоев, человеческого фактора и&nbsp;природных катаклизмов</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="5" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Создать среду
+            <br>тестирования и&nbsp;разработки</p>
+          <p class="text for-what__text">чтобы ваши разработчики продолжали работать в&nbsp;привычных инструментах и&nbsp;имели доступ к передовым технологиям</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="6" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Разместить в&nbsp;облаке
+            <br>мобильные и&nbsp;веб-приложения</p>
+          <p class="text for-what__text">чтобы они работали круглосуточно вне зависимости от&nbsp;сложности и&nbsp;трафика</p>
+        </div>
+        <div class="for-what__item" data-reason-bg="7" data-aos="fade-up">
+          <p class="text text--yellow for-what__title">Настроить VPN</p>
+          <p class="text for-what__text">чтобы появились надежные зашифрованные каналы связи между офисами и&nbsp;удаленными сотрудниками</p>
+        </div>
+      </div>
+      <div class="for-what__btn" data-aos="fade-up">
+        {{ Macros.Btn('mailto:uc@stc-v.ru', 'btn--bg-yellow' + ' btn--mt') }}
+      </div>
+      <div class="for-what__img" data-aos="fade-up">
+        <img src="{{ 'for-what.png'|img_asset }}" alt="">
+      </div>
+    </div>
+</section>
+<section class="section section--onecolumn section--no-min-height">
+  <div class="container">
+    <div class="section__inner section__inner--height-auto section__inner--no-padding">
+      <div class="section__content">
+        <h2 class="title">Перед вами стоит другая задача?</h2>
+        <p class="text text--fz-30">Расскажите нам о ваших бизнес-задачах,
+          <br>и мы сформируем для вас индивидуальное решение!</p>
+        <div>
+          {{ Macros.Btn('mailto:uc@stc-v.ru', 'btn--mt') }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--bg-darkblue" id="advantages">
+  <div class="container">
+    <div class="section__inner" data-aos="fade-right" data-aos-offset="200">
+      <div class="section__content">
+        <p class="title">Стоимость
+          <br>сервисов в&nbsp;Azure*</p>
+        <div class="section__text-wrapper">
+          <p class="text"><span class="text text--fz-30 text--yellow text--wrap">1 530,5&nbsp;₽/месяц</span>Контроллер домена (AD + DNS)</p>
+          <p class="text"><span class="text text--fz-30 text--yellow text--wrap">5&nbsp;935&nbsp;₽/месяц</span>1С&nbsp;терминал файловый (AD + DNS + TS)</p>
+          <p class="text"><span class="text text--fz-30 text--yellow text--wrap">23&nbsp;120&nbsp;₽/месяц</span>1С&nbsp;терминал SQL (AD + DNS + TS + MSSQL)</p>
+          <p class="text text--note">*Цены указаны из&nbsp;расчета 300 часов в&nbsp;месяц, по&nbsp;12&nbsp;часов в&nbsp;день, исходя из&nbsp;25&nbsp;рабочих дней в&nbsp;месяце (среднее рабочее время с&nbsp;запасом на&nbsp;профилактику и&nbsp;сверхурочную работу).</p>
+        </div>
+      </div>
+    </div>
+    <div class="section__stage stage">
+      <img class="stage__object" data-aos="fade-up" data-aos-offset="200" data-aos-delay="150" data-obj="4" src="{{ 'price.png' | img_asset }}" alt="">
+    </div>
+  </div>
+</section>
+<section class="section section--twocolumn solutions" id="advantages">
+  <div class="container">
+    <p class="solutions__title title" data-aos="fade-up">Наши решения уже работают!</p>
+    <div class="solutions__inner section__inner section__inner--no-padding section__inner--height-auto" data-aos="fade-up" data-aos-offset="200">
+      <div class="solutions__content">
+        <div class="solutions__item">
+          <div class="solutions__img">
+            <img src="{{ 'solutions1.jpg'|img_asset }}" alt="">
+          </div>
+          <p class="solutions__name text text--fz-30">Туристическая компания
+            <br>«Путешествие»</p>
+          <p class="text">Использует инфраструктуру Azure для размещения системы бронирования мест в&nbsp;автобусах.</p>
+          <p class="text text--point">Внедрить решение на&nbsp;Azure в&nbsp;10&nbsp;раз дешевле, чем установить локальный сервер</p>
+          <p class="text text--point">Ежемесячные расходы на&nbsp;системы в&nbsp;Azure вдвое ниже</p>
+          <p class="text text--point">Вне сезона можно отключать инфраструктуру, чтобы не&nbsp;оплачивать &laquo;холостую работу&raquo; мощностей.</p>
+        </div>
+        <div class="solutions__item">
+          <div class="solutions__img">
+            <img src="{{ 'solutions2.jpg'|img_asset }}" alt="">
+          </div>
+          <p class="solutions__name text text--fz-30">Разработчик мобильных приложений
+            <br>AppDev</p>
+          <p class="text">Использует Azure для разработки, тестирования и&nbsp;хостинга своих приложений. Плюс приобретает по&nbsp; подписке Azure среду разработки Visual Studio Enterprise.</p>
+          <p class="text text--point">Выгодная годовая подписка на&nbsp;Visual Studio Enterprise</p>
+          <p class="text text--point">Бонусы в&nbsp;виде 150 долларов в&nbsp;месяц на&nbsp;использование ресурсов Azure, Team Foundation Server и&nbsp;Visual Studio App Center.</p>
+        </div>
+      </div>
+    </div>
+    <div class="solutions__btn">
+      {{ Macros.Btn('mailto:uc@stc-v.ru', 'btn--mt') }}
+    </div>
+  </div>
+</section>
+<section class="section section--bg-darkblue">
+  <div class="container">
+    <div class="section__inner">
+      <div class="section__content">
+        <h1 class="title title--size-extra" data-aos="fade-up">Azure поможет вашему бизнесу достичь новых вершин</h1>
+        <div class="section__text-wrapper">
+          <p class="text" data-aos="fade-up">А&nbsp;мы&nbsp;поможем подобрать для вас оптимальный набор служб в&nbsp;облаке Azure. Оставьте заявку, и&nbsp;мы&nbsp;ответим на&nbsp;все ваши вопросы и&nbsp;рассчитаем стоимость решения!</p>
+        </div>
+        <div data-aos="fade-up" class="mb20">
+          {{ Macros.Btn('mailto:uc@stc-v.ru', 'btn--bg-yellow' + ' btn--mt') }}
+        </div>
+      </div>
+    </div>
+    <div class="section__stage stage stage--height">
+      <img class="stage__object" data-obj="6" src="{{ 'help.png' | img_asset }}" alt="" data-aos="fade-left" data-aos-offset="200">
+    </div>
+  </div>
+</section>
+{% endblock %}

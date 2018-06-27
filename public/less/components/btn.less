@@ -1,0 +1,76 @@
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	height: 44px;
+	line-height: 42px;
+	text-decoration: none;
+	user-select: none;
+	outline: none;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: none;
+	color: @yellow;
+	background-color: @darkblue;
+	font-family: inherit;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: lighten(@darkblue, 10%)
+	}
+
+	&:active {
+		transform: translateY(2px)
+	}
+
+	&--size-large {
+		height: 55px;
+		line-height: 51px;
+		padding-left: 67px;
+		padding-right: 67px;
+		font-size: 20px;
+		white-space: nowrap;
+	}
+
+
+	&--bg-white {
+		border: 2px solid @darkblue;
+		color: @darkblue;
+		background-color: #fff;
+		line-height: 48px;
+
+		&:hover {
+			background-color: darken(#fff, 10%)
+		}
+	}
+
+	&--bg-yellow {
+		border: 2px solid @yellow;
+		color: @yellow;
+		background-color: @yellow;
+		color: @black;
+
+		&:hover {
+			border-color: darken(@yellow, 10%);
+			background-color: darken(@yellow, 10%);
+		}
+	}
+
+
+	&--mt {
+		margin-top: 30px;
+	}
+
+	.svg-icon {
+		display: inline-block;
+		vertical-align: middle;
+		width: 26px;
+		height: 26px;
+		fill: #fff;
+		margin-left: 5px;
+	}
+}
